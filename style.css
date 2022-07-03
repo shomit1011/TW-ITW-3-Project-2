@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  background-color: #eee;
+  background-image: url(../img/background.jpg);
   font-family: "Poppins", sans-serif;
   display: flex;
   justify-content: center;
@@ -28,18 +28,20 @@ body {
 }
 
 .grid-item {
-  background-color: #fff;
+  background-color: #a4508b;
+  
   border-radius: 0.4rem;
   overflow: hidden;
-  box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
+  box-shadow: #800080;
   cursor: pointer;
   transition: 0.2s;
 }
 
 .grid-item:hover {
   transform: translateY(-0.5%);
-  box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.5);
+  box-shadow:#800080;
 }
+
 
 .card-img {
   display: block;
@@ -73,14 +75,15 @@ body {
   padding: 1.5rem;
   font-size: 2rem;
   text-align: center;
-  color: #3363ff;
-  background-color: #d8e0fd;
-  border: none;
+  color: #FF69B4;
+  background-color: #800080;
+  border:none;
   border-radius: 0.4rem;
   transition: 0.2s;
   cursor: pointer;
   letter-spacing: 0.1rem;
 }
+
 
 .card-btn span {
   margin-left: 1rem;
@@ -89,7 +92,7 @@ body {
 
 .card-btn:hover,
 .card-btn:active {
-  background-color: #c2cffc;
+  background-color: #FFC0CB;
 }
 
 .card-btn:hover span,
